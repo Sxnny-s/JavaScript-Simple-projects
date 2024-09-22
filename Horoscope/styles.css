@@ -1,5 +1,33 @@
 body{
-    padding-top: 20%;
-    background-color: blanchedalmond;
+    background-color: #24145a ;
     text-align: center;
+     color: rgb(193, 199, 204);
+     background-size: cover;
+     background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F06%2FDownload-Starry-Night-Wallpapers-HD.jpg&f=1&nofb=1&ipt=37d09db7cb3e1dfc53dc74f2141f57ba8d8dad6cc64ccf2f5c3a3f45e6c8786b&ipo=images');
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin-top: 10%;
+}
+
+label {
+    font-size: 3rem;
+}
+
+input {
+    padding: 20px;
+    font-size: 1.7rem;
+}
+
+span{
+    font-size: 25rem;
+    text-decoration: underline;
+    
+}
+
+
+
+.box {
+    height: 100vh;
 }
