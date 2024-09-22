@@ -48,13 +48,16 @@ function power(a,b){
     }
     answer.innerText = result
 
-    
-
 }
 
 function square(a,b){
     let first = num1.value
     let second = num2.value
+
+    let square1 = first * first
+    let square2 = second * second
+
+    answer.innerText = `Square root of ${first}: ${square1} \n Square root of ${second}: ${square2}` 
 
 
 }

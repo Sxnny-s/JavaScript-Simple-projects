@@ -1,6 +1,59 @@
+/* background color */
+body {
+    background-color: #251c19;
+    color: #fffffe;
+}
+
 /* buttons */
 button {
     padding: 10px;
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: #52423e;
+    color: #f5ebe5;
+    font-size: 2.5rem;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    width: 29%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+button:hover{
+    background-color: rgba(129, 92, 92, 0.159);
+}
+
+/* main  */
+main {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+/* font size */
+
+h1 {
+    font-size: 5.5rem;
+
+}
+
+label {
+    font-size: 3rem;
+    display: block;
+}
+
+
+input {
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+/* span / answer section */
+span {
+    font-size: 10rem;
+    text-decoration: underline;
+    color: #856962;
 }
