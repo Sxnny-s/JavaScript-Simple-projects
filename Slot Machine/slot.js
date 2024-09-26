@@ -49,7 +49,10 @@ const betAmount = () => {
         return wager
 }
 
-// display slot machine
+// display slot machineconst playAgain = () => {
+    const answer = prompt('Would you like to play again? Y OR N')
+    return (answer == 'Y')
+}
 
 const reels = [
     ['🍒', '🍋', '🍊'],
