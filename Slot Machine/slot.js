@@ -27,12 +27,12 @@ const deposit = () => {
 
 // Min and max bet 
 
+let wager
 const betAmount = () => {
     console.log('1 = max bet: 50')
     console.log('2 = min bet: 10')
 
     const minOrMax = prompt('Would you like to place a minimum bet or maximum bet?: [1 or 2] ')
-    let wager
     while(true){
         if (minOrMax == '1'){
             wager = 50
@@ -49,10 +49,7 @@ const betAmount = () => {
         return wager
 }
 
-// display slot machineconst playAgain = () => {
-    const answer = prompt('Would you like to play again? Y OR N')
-    return (answer == 'Y')
-}
+// display slot machine
 
 const reels = [
     ['🍒', '🍋', '🍊'],
@@ -97,10 +94,15 @@ const slotRandom = () => {
     if(win){
         console.log('YOU WIN!!!')
         depositAmount = wager * 2 + depositAmount
+        let winnings = wager * 2
         console.log(depositAmount)
+        console.log(`+ ${winnings}`)
+
+    
     }else{
         console.log('YOU LOSE !')
         console.log(depositAmount)
+        console.log(`- ${wager}`)
     }
 
    
