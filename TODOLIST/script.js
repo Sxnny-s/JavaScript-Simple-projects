@@ -27,3 +27,13 @@ function completed(event){
 }
 
 
+// clear completed 
+// mentor helped. fin is an array like object so I have to iterate through it removing each one with .remove()
+
+function clrCompleted(){
+    let fin = document.getElementsByClassName('completed')
+    
+    while (fin.length > 0) {
+        fin[0].remove(); 
+    }
+}

@@ -54,3 +54,8 @@ button {
     border: none;
     padding: 5px;
 }
+
+/* clear completed */
+.clearCompleted {
+    display: none;
+}
