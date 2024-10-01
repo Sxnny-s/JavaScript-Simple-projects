@@ -23,7 +23,6 @@ input {
 span{
     font-size: 25rem;
     text-decoration: underline;
-    
 }
 
 
@@ -31,3 +30,20 @@ span{
 .box {
     height: 100vh;
 }
+
+
+input[type="submit"] {
+    padding: 15px 30px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
